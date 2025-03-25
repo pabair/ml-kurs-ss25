@@ -38,7 +38,6 @@ The following steps are now similar in both OS:
 
     `jupyter notebook`
 
-
 ## Get Code Repository
 
 1. Go to [`https://github.com/pabair/ml-kurs-ss25`](https://github.com/pabair/ml-kurs-ss25)
@@ -50,3 +49,23 @@ The following steps are now similar in both OS:
 4. Change into the directory: `cd ml-kurs-ss25`
 
 5. (later) As the original repository gets updated, run `git pull` in the terminal to fetch the changes from Github to your computer
+
+## Alternative Setup in Linux / Windows Subsystem for Linux (WSL)
+
+If you don't want to use Conda, you can also install the packages using pip in a virtual environment:
+
+1. Create a new virtual environment:
+
+    `python3 -m venv venv/`
+
+2. Activate the environment:
+    
+    `source venv/bin/activate`
+
+3. Install the packages:
+   
+    `pip install -r requirements.txt`
+
+4. Start the Jupyter Notebook with `jupyter notebook .`
+
+Instead of `jupyter notebook`, you can also open the project in VSCode (with the Jupyter extension installed) by running `code .` in the terminal and then selecting the venv as the Python interpreter for Jupyter.
