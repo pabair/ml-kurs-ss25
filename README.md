@@ -14,27 +14,28 @@ rm ~/miniconda3/miniconda.sh
 ```
 ### Windows:
 
-1. Download and install Miniconda from [here](https://www.anaconda.com/download/success)
+Download and install Miniconda from [here](https://www.anaconda.com/download/success)
 
-2. On Windoes, start the `Anaconda Prompt` . On Mac or Linux, just open a new terminal window.
 
 ## Setup Conda
 
+On Windows, start the application `Anaconda Prompt`. On Mac or Linux, just open a new terminal window.
+
 The following steps are now similar in both OS:
 
-3. Create a new environment for this course:
+1. Create a new environment for this course:
 
     `conda create --name ml-course python=3.8`
 
-4. Activate this environment:
+2. Activate this environment:
 
     `conda activate ml-course`
 
-5. Install the following packages: numpy, pandas, matplotlib, scikit-learn.
+3. Install the following packages: numpy, pandas, matplotlib, scikit-learn.
 
     `conda install numpy pandas matplotlib scikit-learn jupyter seaborn`
 
-6. Test your installation by opening a new jupyter notebook. A new browser window should open.
+4. Test your installation by opening a new jupyter notebook. A new browser window should open.
 
     `jupyter notebook`
 
